@@ -14,7 +14,7 @@ Bring the power of ClashKing directly to your Discord server. The ClashKing Disc
 
 ### ClashKing Mobile App
 
-We offer mobile applications for both iOS and Android, providing on-the-go access to all the features available on our web dashboard and Discord bot. Stay connected with your clan anytime, anywhere.
+We offer mobile applications for both iOS and Android, providing on-the-go access to all the features available on our Discord bot & more. Stay connected with your clan anytime, anywhere.
 
 
 ## How to Contribute
