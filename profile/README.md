@@ -4,7 +4,7 @@
 
 Welcome to **ClashKing** - Your ultimate companion for all things Clash of Clans!
 
-![An illustration showing clash characters around a campfire](https://clashkingfiles.b-cdn.net/Loading_Screen_WildWest_2024.png)
+![An illustration showing clash characters partying](https://github.com/ClashKingInc/.github/blob/24d06b184145511328d2467e43657dbf56c77cb5/profile/IMG_1961.jpg)
 
 ## Projects
 
