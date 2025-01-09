@@ -40,7 +40,7 @@ All our projects are open-source. See the LICENSE file in each repository for mo
 
 ## Contact
 
-For any inquiries, feel free to reach out to us at devs@clashkingbot.com.
+For any inquiries, feel free to reach out to us at devs@clashk.ing
 
 ---
 
