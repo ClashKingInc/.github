@@ -7,6 +7,15 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge" alt="Open Source">
+  <img src="https://img.shields.io/badge/Project-Free%20to%20Use-blue?style=for-the-badge" alt="Free to use">
+  <img src="https://img.shields.io/badge/Status-Major%20Rewrite-orange?style=for-the-badge" alt="Major rewrite">
+  <a href="https://www.patreon.com/clashking">
+    <img src="https://img.shields.io/badge/Support-Patreon-ff424d?style=for-the-badge&logo=patreon" alt="Patreon">
+  </a>
+<p>
+
+<p align="center">
   Open-source tools for Clash of Clans players, clans, Discord communities, and developers.
 </p>
 
