@@ -29,9 +29,9 @@
   ·
   <a href="https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands">Discord Bot</a>
   ·
-  <a href="https://play.google.com/apps/testing/com.clashking.clashkingapp">Android Beta</a>
+  <a href="https://play.google.com/store/apps/details?id=com.clashking.clashkingapp">Android App</a>
   ·
-  <a href="https://testflight.apple.com/join/6Q8dfnMX">iOS Beta</a>
+  <a href="https://apps.apple.com/us/app/clashking/id6502886269">iOS App</a>
   ·
   <a href="https://docs.clashk.ing/">Docs</a>
   ·
@@ -56,8 +56,8 @@ The ecosystem includes a Discord bot, mobile app, dashboard, backend API, tracki
 | --- | --- |
 | Add ClashKing to your Discord server | [Invite ClashKing Bot](https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands) |
 | Configure ClashKing for your server | [ClashKing Dashboard](https://clashk.ing/) |
-| Download ClashKing on Android | [Google Play beta](https://play.google.com/apps/testing/com.clashking.clashkingapp) |
-| Join the iOS beta | [TestFlight](https://testflight.apple.com/join/6Q8dfnMX) |
+| Download ClashKing on Android | [Google Play](https://play.google.com/store/apps/details?id=com.clashking.clashkingapp) |
+| Download ClashKing on iOS | [App Store](https://apps.apple.com/us/app/clashking/id6502886269) |
 | Read the documentation | [ClashKing Docs](https://docs.clashk.ing/) |
 | Explore the public API | [API docs](https://api.clashk.ing/docs) |
 | Use Clash of Clans API wrappers | [clashy.go](https://github.com/ClashKingInc/clashy.go) or [clashy.py](https://github.com/ClashKingInc/clashy.py) |
@@ -196,8 +196,8 @@ Join the ClashKing Discord for support, feedback, updates, development discussio
 - Website: https://clashk.ing/
 - Documentation: https://docs.clashk.ing/
 - API Docs: https://api.clashk.ing/docs
-- Android Beta: https://play.google.com/apps/testing/com.clashking.clashkingapp
-- iOS Beta: https://testflight.apple.com/join/6Q8dfnMX
+- Android App: https://play.google.com/store/apps/details?id=com.clashking.clashkingapp
+- iOS App: https://apps.apple.com/us/app/clashking/id6502886269
 - Discord: https://discord.gg/clashking
 - Ko-fi: https://ko-fi.com/clashking
 - Patreon: https://www.patreon.com/clashking
