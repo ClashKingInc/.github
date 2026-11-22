@@ -108,7 +108,6 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 
 | Repository | Description |
 | --- | --- |
-| [ClashKingAdminPanel](https://github.com/ClashKingInc/ClashKingAdminPanel) | Internal operations panel for managing ClashKing. |
 | [.github](https://github.com/ClashKingInc/.github) | Organization profile and shared GitHub configuration. |
 | [Gists](https://github.com/ClashKingInc/Gists) | Random code snippets and experiments. |
 | [num2words](https://github.com/ClashKingInc/num2words) | Utility for converting numbers into words. |
