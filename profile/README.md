@@ -9,11 +9,14 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge" alt="Open Source">
   <img src="https://img.shields.io/badge/Project-Free%20to%20Use-blue?style=for-the-badge" alt="Free to use">
-  <img src="https://img.shields.io/badge/Status-Major%20Rewrite-orange?style=for-the-badge" alt="Major rewrite">
+  <img src="https://img.shields.io/badge/Status-Rewrite%20Complete-brightgreen?style=for-the-badge" alt="Rewrite complete">
   <a href="https://www.patreon.com/clashking">
     <img src="https://img.shields.io/badge/Support-Patreon-ff424d?style=for-the-badge&logo=patreon" alt="Patreon">
   </a>
-<p>
+  <a href="https://ko-fi.com/clashking">
+    <img src="https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi">
+  </a>
+</p>
 
 <p align="center">
   Open-source tools for Clash of Clans players, clans, Discord communities, and developers.
@@ -22,7 +25,7 @@
 <p align="center">
   <a href="https://discord.gg/clashking">Discord Server</a>
   ·
-  <a href="https://github.com/ClashKingInc/ClashKingBo](https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands">Discord Bot</a>
+  <a href="https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands">Discord Bot</a>
   ·
   <a href="https://play.google.com/apps/testing/com.clashking.clashkingapp">Android Beta</a>
   ·
@@ -39,15 +42,9 @@
 
 ## Project Status
 
-ClashKing is currently in the middle of a major rewrite.
+The major ClashKing rewrite is complete. The bot, mobile app, dashboard, backend API, tracking infrastructure, Clash of Clans API tooling, and shared libraries have been rebuilt on a cleaner, faster foundation.
 
-Large parts of the ecosystem are being rebuilt, modernized, and cleaned up across the bot, mobile app, dashboard, backend services, tracking infrastructure, Clash of Clans API tooling, and shared libraries.
-
-During this transition, some repositories may move quickly, some features may be unstable or temporarily unavailable, APIs may change, and documentation may temporarily lag behind the latest work.
-
-The goal is to make ClashKing faster, cleaner, easier to maintain, and better prepared for the future.
-
-Thanks for sticking with us while we build the next generation of ClashKing.
+Some documentation may still be catching up, and we keep improving things every day. If you spot a bug or something missing, let us know on [Discord](https://discord.gg/clashking) or open an issue.
 
 ## Start Here
 
@@ -81,7 +78,7 @@ We work on ClashKing as a side project alongside our full-time jobs. The project
 
 The ecosystem is developed across multiple areas: Discord bot features, mobile app development, dashboard work, backend services, tracking infrastructure, API tooling, design, documentation, testing, and community support.
 
-Because ClashKing is large and currently being rewritten, the team focuses on long-term maintainability, practical features, reliable data, and tools that are useful for real clans and communities.
+Because ClashKing is large, the team focuses on long-term maintainability, practical features, reliable data, and tools that are useful for real clans and communities.
 
 Community feedback plays a big role in shaping ClashKing. Bug reports, feature ideas, testing, documentation improvements, and contributions all help move the project forward.
 
@@ -93,6 +90,7 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 | [ClashKingApp](https://github.com/ClashKingInc/ClashKingApp) | Mobile companion app for ClashKing and Clash of Clans. |
 | [ClashKingDashboard](https://github.com/ClashKingInc/ClashKingDashboard) | Dashboard used to configure and manage ClashKing. |
 | [ClashKingAPI](https://github.com/ClashKingInc/ClashKingAPI) | Backend API powering ClashKing services. |
+| [ClashKingAdminPanel](https://github.com/ClashKingInc/ClashKingAdminPanel) | Internal operations panel for managing ClashKing. |
 | [ClashKingDocs](https://github.com/ClashKingInc/ClashKingDocs) | Documentation for ClashKing features, commands, and workflows. |
 
 ## Backend, Infrastructure, and Data
@@ -101,7 +99,7 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 | --- | --- |
 | [ClashKingTracking](https://github.com/ClashKingInc/ClashKingTracking) | Backend infrastructure for ClashKing tracking systems. |
 | [ClashKingProxy](https://github.com/ClashKingInc/ClashKingProxy) | High-performance proxy for the Clash of Clans API. |
-| [DatabaseSchemas](https://github.com/ClashKingInc/DatabaseSchemas) | Database schemas and migrations used across ClashKing services. |
+| [DevKit](https://github.com/ClashKingInc/DevKit) | Shared database schemas, infrastructure, design system, and the `clashking` CLI. |
 | [ClashTestingAPI](https://github.com/ClashKingInc/ClashTestingAPI) | Mock Clash of Clans API requests for testing. |
 
 ## Libraries and Developer Tools
@@ -111,7 +109,7 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 | [clashy.go](https://github.com/ClashKingInc/clashy.go) | Go wrapper for the Clash of Clans API. |
 | [clashy.py](https://github.com/ClashKingInc/clashy.py) | Python Clash of Clans API wrapper, forked from `coc.py`. |
 | [ClashKingAssets](https://github.com/ClashKingInc/ClashKingAssets) | Clash of Clans assets and extractor tooling. |
-| [ClahKingDesignSystem](https://github.com/ClashKingInc/ClahKingDesignSystem) | ClashKing design system resources. |
+| [ClashKingTranslations](https://github.com/ClashKingInc/ClashKingTranslations) | Shared localization for ClashKing projects. |
 
 ## Supporting Repositories
 
@@ -154,7 +152,7 @@ Useful repositories and resources for developers:
 - [ClashKingAPI](https://github.com/ClashKingInc/ClashKingAPI)
 - [ClashKingTracking](https://github.com/ClashKingInc/ClashKingTracking)
 - [ClashKingProxy](https://github.com/ClashKingInc/ClashKingProxy)
-- [DatabaseSchemas](https://github.com/ClashKingInc/DatabaseSchemas)
+- [DevKit](https://github.com/ClashKingInc/DevKit)
 - [ClashTestingAPI](https://github.com/ClashKingInc/ClashTestingAPI)
 - [clashy.go](https://github.com/ClashKingInc/clashy.go)
 - [clashy.py](https://github.com/ClashKingInc/clashy.py)
@@ -177,9 +175,9 @@ Before contributing, please check the README and contribution notes of the speci
 
 We know that contributing can currently be difficult. Some parts of the ecosystem depend on several services, shared data, and production-only infrastructure. Because of financial constraints, we currently operate with a production-focused setup rather than a full set of sandbox environments.
 
-As part of the rewrite, we plan to work on better contributor-friendly development environments, including sandbox setups where possible. The goal is to make it easier for contributors to test changes, understand the system, and help more concretely without needing direct access to production services.
+We plan to keep working on better contributor-friendly development environments, including sandbox setups where possible. The goal is to make it easier for contributors to test changes, understand the system, and help more concretely without needing direct access to production services.
 
-Because ClashKing is currently being rewritten, it is a good idea to open an issue or join the Discord before starting large changes.
+For large changes, it is a good idea to open an issue or join the Discord before starting large changes.
 
 ## Support ClashKing
 
@@ -191,6 +189,7 @@ If you want to support the project and help us pay for infrastructure, you can:
 
 - Use creator code `ClashKing` in the Supercell shop: [Support Creator](https://link.clashofclans.com/en?action=SupportCreator&id=Clashking)
 - Subscribe through our Discord community: [Join Discord](https://discord.gg/clashking)
+- Support us on Ko-fi: [ko-fi.com/clashking](https://ko-fi.com/clashking)
 - Support us on Patreon: [patreon.com/clashking](https://www.patreon.com/clashking)
 
 Every bit of support helps keep ClashKing running, free, and actively maintained.
