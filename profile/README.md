@@ -9,20 +9,25 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-brightgreen?style=for-the-badge" alt="Open Source">
   <img src="https://img.shields.io/badge/Project-Free%20to%20Use-blue?style=for-the-badge" alt="Free to use">
-  <img src="https://img.shields.io/badge/Status-Major%20Rewrite-orange?style=for-the-badge" alt="Major rewrite">
+  <img src="https://img.shields.io/badge/Version-v2-brightgreen?style=for-the-badge" alt="Version v2">
   <a href="https://www.patreon.com/clashking">
     <img src="https://img.shields.io/badge/Support-Patreon-ff424d?style=for-the-badge&logo=patreon" alt="Patreon">
   </a>
-<p>
+  <a href="https://ko-fi.com/clashking">
+    <img src="https://img.shields.io/badge/Support-Ko--fi-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white" alt="Ko-fi">
+  </a>
+</p>
 
 <p align="center">
   Open-source tools for Clash of Clans players, clans, Discord communities, and developers.
 </p>
 
 <p align="center">
+  <a href="https://clashk.ing/">Website</a>
+  ·
   <a href="https://discord.gg/clashking">Discord Server</a>
   ·
-  <a href="https://github.com/ClashKingInc/ClashKingBo](https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands">Discord Bot</a>
+  <a href="https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands">Discord Bot</a>
   ·
   <a href="https://play.google.com/apps/testing/com.clashking.clashkingapp">Android Beta</a>
   ·
@@ -37,41 +42,27 @@
 
 ---
 
-## Project Status
+## What Is ClashKing?
 
-ClashKing is currently in the middle of a major rewrite.
+ClashKing v2 is an open-source ecosystem of tools built around Clash of Clans.
 
-Large parts of the ecosystem are being rebuilt, modernized, and cleaned up across the bot, mobile app, dashboard, backend services, tracking infrastructure, Clash of Clans API tooling, and shared libraries.
+It helps players, clan leaders, Discord communities, and developers manage clan activity, track player progress, follow wars and CWL, organize rosters, view statistics, automate server workflows, and build with Clash of Clans data.
 
-During this transition, some repositories may move quickly, some features may be unstable or temporarily unavailable, APIs may change, and documentation may temporarily lag behind the latest work.
-
-The goal is to make ClashKing faster, cleaner, easier to maintain, and better prepared for the future.
-
-Thanks for sticking with us while we build the next generation of ClashKing.
+The ecosystem includes a Discord bot, mobile app, dashboard, backend API, tracking services, API proxy, shared assets, database schemas, testing tools, and Clash of Clans API libraries.
 
 ## Start Here
 
 | If you want to... | Go here |
 | --- | --- |
-| Add ClashKing to your Discord server | [ClashKingBot](https://github.com/ClashKingInc/ClashKingBot) |
+| Add ClashKing to your Discord server | [Invite ClashKing Bot](https://discord.com/api/oauth2/authorize?client_id=824653933347209227&permissions=8&scope=bot%20applications.commands) |
+| Configure ClashKing for your server | [ClashKing Dashboard](https://clashk.ing/) |
 | Download ClashKing on Android | [Google Play beta](https://play.google.com/apps/testing/com.clashking.clashkingapp) |
 | Join the iOS beta | [TestFlight](https://testflight.apple.com/join/6Q8dfnMX) |
-| Use ClashKing on mobile | [ClashKingApp](https://github.com/ClashKingInc/ClashKingApp) |
-| Configure ClashKing for your server | [ClashKingDashboard](https://github.com/ClashKingInc/ClashKingDashboard) |
 | Read the documentation | [ClashKing Docs](https://docs.clashk.ing/) |
 | Explore the public API | [API docs](https://api.clashk.ing/docs) |
-| Explore the backend API repository | [ClashKingAPI](https://github.com/ClashKingInc/ClashKingAPI) |
-| Work with tracking/backend infrastructure | [ClashKingTracking](https://github.com/ClashKingInc/ClashKingTracking) |
 | Use Clash of Clans API wrappers | [clashy.go](https://github.com/ClashKingInc/clashy.go) or [clashy.py](https://github.com/ClashKingInc/clashy.py) |
+| Contribute to ClashKing | [DevKit Contributing Guide](https://github.com/ClashKingInc/DevKit/blob/main/CONTRIBUTING.md) |
 | Join the community | [Discord](https://discord.gg/clashking) |
-
-## What Is ClashKing?
-
-ClashKing is an ecosystem of tools built around Clash of Clans.
-
-It helps players, clan leaders, Discord communities, and developers manage clan activity, track player progress, follow wars and CWL, organize rosters, view statistics, automate server workflows, and build with Clash of Clans data.
-
-The ecosystem includes a Discord bot, mobile app, dashboard, backend API, tracking services, API proxy, shared assets, database schemas, testing tools, and Clash of Clans API libraries.
 
 ## The Team Behind ClashKing
 
@@ -81,7 +72,7 @@ We work on ClashKing as a side project alongside our full-time jobs. The project
 
 The ecosystem is developed across multiple areas: Discord bot features, mobile app development, dashboard work, backend services, tracking infrastructure, API tooling, design, documentation, testing, and community support.
 
-Because ClashKing is large and currently being rewritten, the team focuses on long-term maintainability, practical features, reliable data, and tools that are useful for real clans and communities.
+Because ClashKing is large, the team focuses on long-term maintainability, practical features, reliable data, and tools that are useful for real clans and communities.
 
 Community feedback plays a big role in shaping ClashKing. Bug reports, feature ideas, testing, documentation improvements, and contributions all help move the project forward.
 
@@ -101,7 +92,7 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 | --- | --- |
 | [ClashKingTracking](https://github.com/ClashKingInc/ClashKingTracking) | Backend infrastructure for ClashKing tracking systems. |
 | [ClashKingProxy](https://github.com/ClashKingInc/ClashKingProxy) | High-performance proxy for the Clash of Clans API. |
-| [DatabaseSchemas](https://github.com/ClashKingInc/DatabaseSchemas) | Database schemas and migrations used across ClashKing services. |
+| [DevKit](https://github.com/ClashKingInc/DevKit) | Shared database schemas, infrastructure, design system, local dev tooling, and the `clashking` CLI. |
 | [ClashTestingAPI](https://github.com/ClashKingInc/ClashTestingAPI) | Mock Clash of Clans API requests for testing. |
 
 ## Libraries and Developer Tools
@@ -111,12 +102,13 @@ Community feedback plays a big role in shaping ClashKing. Bug reports, feature i
 | [clashy.go](https://github.com/ClashKingInc/clashy.go) | Go wrapper for the Clash of Clans API. |
 | [clashy.py](https://github.com/ClashKingInc/clashy.py) | Python Clash of Clans API wrapper, forked from `coc.py`. |
 | [ClashKingAssets](https://github.com/ClashKingInc/ClashKingAssets) | Clash of Clans assets and extractor tooling. |
-| [ClahKingDesignSystem](https://github.com/ClashKingInc/ClahKingDesignSystem) | ClashKing design system resources. |
+| [ClashKingTranslations](https://github.com/ClashKingInc/ClashKingTranslations) | Shared localization for ClashKing projects. |
 
 ## Supporting Repositories
 
 | Repository | Description |
 | --- | --- |
+| [ClashKingAdminPanel](https://github.com/ClashKingInc/ClashKingAdminPanel) | Internal operations panel for managing ClashKing. |
 | [.github](https://github.com/ClashKingInc/.github) | Organization profile and shared GitHub configuration. |
 | [Gists](https://github.com/ClashKingInc/Gists) | Random code snippets and experiments. |
 | [num2words](https://github.com/ClashKingInc/num2words) | Utility for converting numbers into words. |
@@ -149,19 +141,21 @@ Developers can use the ClashKing ecosystem to explore how Clash of Clans data is
 
 Useful repositories and resources for developers:
 
+- [DevKit](https://github.com/ClashKingInc/DevKit)
 - [API docs](https://api.clashk.ing/docs)
 - [ClashKing Docs](https://docs.clashk.ing/)
 - [ClashKingAPI](https://github.com/ClashKingInc/ClashKingAPI)
 - [ClashKingTracking](https://github.com/ClashKingInc/ClashKingTracking)
 - [ClashKingProxy](https://github.com/ClashKingInc/ClashKingProxy)
-- [DatabaseSchemas](https://github.com/ClashKingInc/DatabaseSchemas)
 - [ClashTestingAPI](https://github.com/ClashKingInc/ClashTestingAPI)
 - [clashy.go](https://github.com/ClashKingInc/clashy.go)
 - [clashy.py](https://github.com/ClashKingInc/clashy.py)
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are welcome!
+
+Start with [DevKit](https://github.com/ClashKingInc/DevKit) and the [Contributing Guide](https://github.com/ClashKingInc/DevKit/blob/main/CONTRIBUTING.md) for local development setup, shared database schemas, design system conventions, and workflow instructions across repositories.
 
 Depending on the repository, you can help by:
 
@@ -173,13 +167,7 @@ Depending on the repository, you can help by:
 - Improving UI and UX
 - Working on backend, bot, dashboard, mobile, infrastructure, or library code
 
-Before contributing, please check the README and contribution notes of the specific repository you want to work on.
-
-We know that contributing can currently be difficult. Some parts of the ecosystem depend on several services, shared data, and production-only infrastructure. Because of financial constraints, we currently operate with a production-focused setup rather than a full set of sandbox environments.
-
-As part of the rewrite, we plan to work on better contributor-friendly development environments, including sandbox setups where possible. The goal is to make it easier for contributors to test changes, understand the system, and help more concretely without needing direct access to production services.
-
-Because ClashKing is currently being rewritten, it is a good idea to open an issue or join the Discord before starting large changes.
+Before contributing, please also check the README of the specific repository you want to work on. For large changes, it is a good idea to open an issue or join the [Discord](https://discord.gg/clashking) before diving in.
 
 ## Support ClashKing
 
@@ -191,6 +179,7 @@ If you want to support the project and help us pay for infrastructure, you can:
 
 - Use creator code `ClashKing` in the Supercell shop: [Support Creator](https://link.clashofclans.com/en?action=SupportCreator&id=Clashking)
 - Subscribe through our Discord community: [Join Discord](https://discord.gg/clashking)
+- Support us on Ko-fi: [ko-fi.com/clashking](https://ko-fi.com/clashking)
 - Support us on Patreon: [patreon.com/clashking](https://www.patreon.com/clashking)
 
 Every bit of support helps keep ClashKing running, free, and actively maintained.
@@ -210,13 +199,7 @@ Join the ClashKing Discord for support, feedback, updates, development discussio
 - Android Beta: https://play.google.com/apps/testing/com.clashking.clashkingapp
 - iOS Beta: https://testflight.apple.com/join/6Q8dfnMX
 - Discord: https://discord.gg/clashking
-- Bot: https://github.com/ClashKingInc/ClashKingBot
-- Mobile App: https://github.com/ClashKingInc/ClashKingApp
-- Dashboard: https://github.com/ClashKingInc/ClashKingDashboard
-- API Repository: https://github.com/ClashKingInc/ClashKingAPI
-- Tracking: https://github.com/ClashKingInc/ClashKingTracking
-- Proxy: https://github.com/ClashKingInc/ClashKingProxy
-- Docs Repository: https://github.com/ClashKingInc/ClashKingDocs
+- Ko-fi: https://ko-fi.com/clashking
 - Patreon: https://www.patreon.com/clashking
 - Supercell Creator Code: https://link.clashofclans.com/en?action=SupportCreator&id=Clashking
 
